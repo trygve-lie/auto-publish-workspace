@@ -15,3 +15,7 @@ export const hello = () => {
 export const world = () => {
     return 'World';
 };
+
+export const lala = () => {
+    return 'lala';
+};
