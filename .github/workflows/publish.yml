@@ -17,10 +17,10 @@ jobs:
       node-version: 16.x
   - name: npm install
     run: |
-      npm install
+      npm install -ws
   - name: npm test
     run: |
-      npm test
+      npm test -ws
  release:
   if: github.event_name == 'push' && github.ref == 'refs/heads/master'
   runs-on: ubuntu-latest
@@ -34,7 +34,7 @@ jobs:
       node-version: 16.x
   - name: npm install
     run: |
-      npm install
+      npm install -ws
   - name: npm run release
     run: |
       npm run release
