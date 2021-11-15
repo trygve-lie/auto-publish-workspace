@@ -18,9 +18,6 @@ jobs:
   - name: npm install
     run: |
       npm install
-  - name: npm lint
-    run: |
-      npm run lint
   - name: npm test
     run: |
       npm test
@@ -44,4 +41,3 @@ jobs:
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-      
