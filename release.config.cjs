@@ -7,13 +7,13 @@ module.exports = {
         "tarballDir": "release",
         "pkgRoot": "packages/lib"
       }],
-      ["@semantic-release/express", {
+      ["@semantic-release/npm", {
         "tarballDir": "release",
-        "pkgRoot": "packages/lib"
+        "pkgRoot": "packages/express"
       }],
-      ["@semantic-release/fastify", {
+      ["@semantic-release/npm", {
         "tarballDir": "release",
-        "pkgRoot": "packages/lib"
+        "pkgRoot": "packages/fastify"
       }],
       ["@semantic-release/github", {
         "assets": "release/*.tgz"
