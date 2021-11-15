@@ -1,0 +1,14 @@
+{
+  "name": "auto-publish-workspaces-lib",
+  "version": "1.0.2",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "tap test.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "tap": "15.0.10"
+  }
+}

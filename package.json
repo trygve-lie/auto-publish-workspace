@@ -1,0 +1,39 @@
+{
+  "name": "actions-auto-publish-workspace",
+  "version": "1.0.0",
+  "description": "A test setup of automatic publish to npm from github actions",
+  "main": "index.js",
+  "type": "module",
+  "workspaces": [
+    "packages/lib",
+    "packages/fastify",
+    "packages/express"
+  ],
+  "scripts": {
+    "test": "tap test.js",
+    "lint:fix": "eslint --fix .",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trygve-lie/auto-publish-workspace.git"
+  },
+  "author": "Trygve Lie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trygve-lie/auto-publish-workspace/issues"
+  },
+  "files": [
+    "index.js",
+    "CHANGELOG.md",
+    "packages",
+    "package.json"
+  ],
+  "homepage": "https://github.com/trygve-lie/auto-publish-workspace#readme",
+  "devDependencies": {
+    "@semantic-release/changelog": "5.0.1",
+    "@semantic-release/git": "9.0.1",
+    "semantic-release": "17.0.8",
+    "tap": "15.0.10"
+  }
+}

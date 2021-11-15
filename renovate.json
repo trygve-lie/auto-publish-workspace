@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "packageRules": [{
+    "depTypeList": ["dependencies"],
+    "automerge": true,
+    "major": {
+      "automerge": false
+    }
+  }]
+}
