@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "tap test.js"
+    "test": "tap test.js",
+    "release": "semantic-release"
   },
   "license": "MIT",
   "devDependencies": {
