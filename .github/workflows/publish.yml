@@ -34,7 +34,7 @@ jobs:
       node-version: 16.x
   - name: npm install
     run: |
-      npm install -ws
+      npm install
   - name: npm run release
     run: |
       npm run release
