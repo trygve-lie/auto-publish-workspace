@@ -20,9 +20,10 @@ module.exports = {
     }],
     ["@semantic-release/git", {
       "assets": [
+        "packages/package.json", 
         "packages/lib/package.json", 
         "packages/express/package.json",
-        "packages/fstify/package.json",
+        "packages/fastify/package.json",
       ]
     }]
   ],

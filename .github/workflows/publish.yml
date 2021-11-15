@@ -35,9 +35,9 @@ jobs:
   - name: npm install
     run: |
       npm install -ws
-  - name: npm run release
+  - name: npx semantic-release
     run: |
-      npm run release
+      npx semantic-release
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       NPM_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}

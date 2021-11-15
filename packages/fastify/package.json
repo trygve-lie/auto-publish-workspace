@@ -5,17 +5,13 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "tap test.js",
-    "release": "semantic-release"
+    "test": "tap test.js"
   },
   "license": "MIT",
   "dependencies": {
     "auto-publish-workspaces-lib": "1.0.1"
   },
   "devDependencies": {
-    "@semantic-release/changelog": "6.0.1",
-    "@semantic-release/git": "10.0.1",
-    "semantic-release": "18.0.0",
     "tap": "15.0.10"
   }
 }
