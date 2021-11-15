@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/trygve-lie/auto-publish-workspace/compare/v1.0.0...v1.1.0) (2021-11-15)
+
+
+### Features
+
+* added new method ([356fa92](https://github.com/trygve-lie/auto-publish-workspace/commit/356fa92c747d519c8ee8c1439b89f307c4d68932))
+
 # 1.0.0 (2021-11-15)
 
 
