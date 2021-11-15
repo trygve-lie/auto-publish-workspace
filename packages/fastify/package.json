@@ -9,7 +9,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "auto-publish-workspaces-lib": "1.0.0"
+    "auto-publish-workspaces-lib": "1.0.1"
   },
   "devDependencies": {
     "tap": "15.0.10"
