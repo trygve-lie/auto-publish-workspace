@@ -13,6 +13,6 @@
   },
   "devDependencies": {
     "express": "4.17.1",
-    "tap": "15.1.2"
+    "tap": "15.2.3"
   }
 }
