@@ -30,9 +30,9 @@
   ],
   "homepage": "https://github.com/trygve-lie/auto-publish-workspace#readme",
   "devDependencies": {
-    "@semantic-release/changelog": "6.0.1",
+    "@semantic-release/changelog": "6.0.3",
     "@semantic-release/git": "10.0.1",
-    "semantic-release": "18.0.0",
+    "semantic-release": "18.0.1",
     "tap": "15.1.2"
   }
 }
