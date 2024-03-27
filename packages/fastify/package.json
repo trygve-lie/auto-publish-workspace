@@ -12,6 +12,6 @@
     "auto-publish-workspaces-lib": "1.0.1"
   },
   "devDependencies": {
-    "tap": "15.1.2"
+    "tap": "18.7.2"
   }
 }
