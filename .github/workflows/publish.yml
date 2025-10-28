@@ -14,7 +14,7 @@ jobs:
   - name: Setup Node.js
     uses: actions/setup-node@v2
     with:
-      node-version: 16.x
+      node-version: 24.x
   - name: npm install
     run: |
       npm install -ws
@@ -31,7 +31,7 @@ jobs:
   - name: Setup Node.js
     uses: actions/setup-node@v2
     with:
-      node-version: 16.x
+      node-version: 24.x
   - name: npm install
     run: |
       npm install
